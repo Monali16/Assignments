@@ -1,0 +1,14 @@
+# Following are the list of an advantages of Git
+1) Maintain a complete log history for every single changes in source code including deletion of file, renaming, or every single modification on source code. It's an easy to work on local repository for every developers for their own task and maintain complete history of every changes.
+2) second advantage is branching and merging. for examlple, if 16 people are working on same project with different task, they can create an individual branch and maintain changes in code to single branch and then if it's tested successfully then merge it back together. the 
+3) Tracebility means track the modification of every single changes in source code.
+4) early bug fixes
+5) Deliver faster as code is alraedy tested.
+
+# Languages used in Github
+Python, Java, Javascript, Ruby, C++, C#, CSS, Typescript and, R, etc.
+
+# Index or staging area in git
+staging area contains untracked file. means the files that have changes but not commited. 
+
+#
