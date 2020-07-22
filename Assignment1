@@ -11,4 +11,147 @@ Python, Java, Javascript, Ruby, C++, C#, CSS, Typescript and, R, etc.
 # Index or staging area in git
 staging area contains untracked file. means the files that have changes but not commited. 
 
-#
+# Process to create a repository in git
+click on + sign in upper right corner. 
+Select create repository
+Give the repository name and fill out other details.
+select public or private option to make the repository either public or private and, click on create repository button.
+
+# Head in github
+Every git repository has one by default head called master. however, we can create as many head we wants.
+
+# why Branching
+Branching strategy help developers to work coherently and parallel on their own task. branching strategy improve the quality of master production as it's not create a complexity in master branch as every developers are working in different branch.
+
+# code to create a new branch in git
+git branch branch_name
+
+# Define conflict in github
+when developers make changes in same line or same file on different branches in git repository.
+
+# Solution to resolve a conflice in github
+first pull the most recent version for security purpose
+open terminal and navigate it to the local git repository or open local git repository by sign in to the git hub account. open local repository.
+open the file which have conflict and decide to keep or remove the code to resolve the conflict issue and then try to merge it back.
+
+# function of git config
+git config is used to set a configuration value for local or global project.
+
+# Git fork 
+fork means copy of a repository.
+
+# Difference between fork, branch and clone?
+Fork means copy of project including repository and still remains the project in git hub that doesn't affect by making changes in copy of repo. Clone means repo copy on my local machine with the help of git. branch is a version of repository that have multiple commits.
+
+# What's the difference between a "pull request" and a "branch"?
+branch is a seperate version of code where we can changes in code and make multiple commits and push your code to remote repo and make a pull request. pull request is giving an opportunity to senior people to review, test and evaluaete code before merge it to master.
+
+# git fetch & git pull
+git fetch only retrives or download new metadata or recent changes from a remote repo. git fetch doesn't integrate new metadata with working files.
+git pull update master branch with the latest changes from the remote server and integrate with working files.
+
+# How to revert previous commit in Git?
+we can use git revert/git checkout/git clean/git rm/git reset to revert previous commit on git. for example, git revert master_branch
+
+#Explain the advantages of Forking Workflow
+Forking means copy of a repository. the main advantages of this workflow is contributions of every developer can be integrated without giving access to officialrepository. every developer have copy of repo and they can commit and push their code to their personal local repo.
+
+# Difference between HEAD, working tree and index, in Git?
+head is a parent branch in local repo, working tree consist files where we are working currently and can view and edit files. Index is a staging area where we put untracked files or put files which we want to commit in a git repo.
+
+# How to identify if a certain branch has been merged into master?
+git branch --merged master or 
+git branch --merged
+
+# What is the use of a Git clone?
+git clone is used to target existing repo and clone or copy it to at new directory.
+
+# What is Git stash?
+git stash is a stacks where we can save unfinished codes or messy codes.  it saves working directory and index state.
+
+# When should I use "git stash"?
+when working on one branches where you stuck or found messy code and want to switch to another branch at that time git stash is useful.
+
+# What is Git stash drop?
+git stash drop is used to remove or delete specific stash which we don't need further and want to delete it.
+
+# Git stash save
+The git stash command takes your uncommitted changes and saves them for later use, and then reverts them from your working copy.
+
+# What README.MD ? What is its purpose? What does MD stands for?
+MD stands for markdown. README.MD file contains information about other files which exist in the repo. the purpose of this file is to give hint about what the code does and how it compiles.
+
+# How to create repository from command prompt?
+open terminal, make a new directory then go to that directory by changing path.
+git init (to initialize)
+git remote add origin https://github.com/Monali16/Assignments/edit/master/as1
+git push -u origin master
+
+# What is the function of ‘git checkout’ in Git?
+git checkout is used to navigates between branches and also used to create a branch.
+
+# How can you bring a new feature in the main branch?
+by creating a new branch using git checkout
+git checkout -b new_feature
+
+# What is the function of ‘git rm’?
+git rm is used to remove files from the staging area as well as from working tree.
+
+#  What is the function of ‘git stash apply’?
+git stash apply is used to apply changes on stash files which we save previously. 
+if we have more than one stash file saved, then we can specify the name  "git stash apply stash_filename" if we don't specify the name, git will consider most recent ones.
+
+# What is the use of ‘git log’?
+it list all the commits which we made in repo in reverse order means most recent one shows the first.
+
+# What is ‘git add’ is used for?
+git add is used to add the changes in working directory to staging area. changes are not recorede until we do commit.
+
+# What is 'git diff' is used for?
+ it's used to track the different between changes made on a file.
+ 
+# What is ‘git status’ is used for?
+git status display the status of working directory and staging area.
+
+#  Can we create multiple branch with one command?
+no
+
+# what is the command that is used to delete a branch?
+git branch -D new_branch
+
+# What is another option for merging in git?
+git rebase is another way to mergeing in git. it result into straight line.
+
+# How to remove a file from git without removing it from your file system?
+git rm --cached filename.extension
+
+# Use of "git rebase" instead of "git merge"?
+it's used to clean messy project history before merge it to master.
+
+# What is a repository in Git?
+repository is a folder where we can store all the files related to our project.
+
+# Command used to write a commit message?
+git commit -m 'first assignment answers'
+
+# Commit object
+A commit object contains the reference to another tree object and some other information(authorname, commit message etc.)
+
+# Write one use-case of Github?
+
+# Name some alternative of Git?
+Bitbucket
+Subversion (SVN)
+Gitlab
+Gitflow
+Mercurial
+
+# What is a gist in Git?
+An easy method to share piece of data with others. these piece of informations are hosted by git hub as a repo.
+
+# What is a gist programming?
+a gist can be string of code or small piece of data.
+
+# Name any two Git repository hosting services which are common?
+github
+Bit bucket
