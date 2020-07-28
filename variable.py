@@ -54,28 +54,7 @@ Enter the second number between 1-10 : 3
 >>> z=m+n
 >>> z
 '33'
->>> m = print(int(input('Enter the first number between 1-10 : '))
-	  m
-	  
-SyntaxError: invalid syntax
->>> m = int(input('Enter the two numbers between 1-10 : ')
-	m
-	
-SyntaxError: invalid syntax
->>> m = int(input('Enter the two numbers between 1-10 : ')
-print(m)
-	
-SyntaxError: invalid syntax
->>> type(m)
-<class 'str'>
->>> print('m')
-m
->>> m
-'3'
->>> n
-'3'
->>> z
-'33'
+
 >>> m = eval(input('Enter the first number between 1-10 :'))
 Enter the first number between 1-10 :3
 >>> n = eval(input('Enter the second number between 1-10 : '))
@@ -86,30 +65,10 @@ Enter the second number between 1-10 : 3
 >>> result = print(z + 30)
 36
 >>> x = 19
->>> print('The input value data type is + "type(x)")
-      
-SyntaxError: EOL while scanning string literal
->>> print('The input value data type is + type(x)')
-The input value data type is + type(x)
+
 >>> type(x)
 <class 'int'>
->>> print('The input value data type is + ' ' + type(x)')
-The input value data type is +  + type(x)
->>> print('The input value data type is + ' ' + integer')
-The input value data type is +  + integer
->>> y = type(x)
->>> y
-<class 'int'>
->>> print('The input value data type is' + y)
-Traceback (most recent call last):
-  File "<pyshell#55>", line 1, in <module>
-    print('The input value data type is' + y)
-TypeError: can only concatenate str (not "type") to str
->>>  print('The input value data type is' type(x))
- 
-SyntaxError: unexpected indent
->>> print('The input value data type is' type(x))
-SyntaxError: invalid syntax
+
 >>> print('The input value data type is', type(x))
 The input value data type is <class 'int'>
 >>> p = 'moniPatel'
@@ -119,4 +78,4 @@ The input value data type is <class 'int'>
 >>> a = '10.0'
 >>> a
 '10.0'
->>> 
+>>>  #As python is a procedural language. Python consider the most recent one.
