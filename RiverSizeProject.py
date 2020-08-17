@@ -53,15 +53,14 @@ while True:
         R = int(input("Enter the number of rows:")) 
         C = int(input("Enter the number of columns:")) 
         mat = [[input('Guess the size of river : ') for x in range (C)] for y in range(R)] 
-        if [2,1,5,2,2] in mat:
+        if any(ele for ele in [2,1,5,2,2]):
             print('You are the winner')
             break
         if [1,2,5] in mat or [2,2,2] in mat or [2,1,5] in mat or [5,2,1] in mat or [2,1,2] in mat or [2,5,1] in mat or [2,5,2] in mat or [2,2,1] in mat or [2,2,5] in mat:
             print("you got second position")
             break 
         else:  
-            print("Invest more money on Almonds, then come back")    
-         
+            print("Invest more money on Almonds, then come back")         
     except:
         try_again= raw_input('Do you want to play again (Y/N)?')
         if try_again == 'Y':
